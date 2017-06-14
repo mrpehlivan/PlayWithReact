@@ -1,7 +1,7 @@
 {
   "name": "play-with-react",
   "version": "1.0.0",
-  "description": "Simple starter example for react and redux learners",
+  "description": "Simple starter example for react learners",
   "main": "index.js",
   "repository": "git@github.com:mrpehlivan/PlayWithReact.git",
   "scripts": {
@@ -9,8 +9,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "mrpehlivan",
   "devDependencies": {
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.0",
@@ -27,11 +26,13 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "loadash": "0.0.1",
     "lodash": "^3.10.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "redux": "^3.0.4",
+    "youtube-api-search": "0.0.5"
   }
 }
