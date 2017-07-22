@@ -3,7 +3,7 @@
 An example of react application when i learn it.
 
 This project use the Youtube Data Api to list ,search  and open videos.
-You can create your own api key from [here] (https://console.developers.google.com/apis/) .
+You can create your own api key from [here](https://console.developers.google.com/apis/) .
 
 
 
